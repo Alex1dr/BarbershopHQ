@@ -23,7 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73acfcb1-3a45-4a96-9e29-2dc013a73c8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BarbershopHQ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BarbershopHQ.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +93,7 @@
       <workItem from="1603133940260" duration="249000" />
       <workItem from="1603134237223" duration="868000" />
       <workItem from="1603135163410" duration="431000" />
-      <workItem from="1603135611827" duration="545000" />
+      <workItem from="1603135611827" duration="2789000" />
     </task>
     <servers />
   </component>
