@@ -11,7 +11,28 @@ end
 class Barber <ActiveRecord::Base
 end
 
-get '/' do
+before do
   @barbers = Barber.all
+  @clients = Client.all
+end
+
+get '/' do
+
   erb :index
+end
+
+get '/visit' do
+  erb :visit
+end
+
+get '/contacts' do
+  erb :contacts
+end
+
+post '/visit' do
+
+  c = Client.new params[:client]
+  c.save
+
+  erb "<h2>Спасибо, Вы записались!</h2>"
 end
