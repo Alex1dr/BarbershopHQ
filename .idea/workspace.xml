@@ -23,16 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73acfcb1-3a45-4a96-9e29-2dc013a73c8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/jquery.datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/jquery.datetimepicker.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/jquery.simplecolorpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/jquery.simplecolorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/contacts.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/visit.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.erb" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +100,7 @@
       <workItem from="1603134237223" duration="868000" />
       <workItem from="1603135163410" duration="431000" />
       <workItem from="1603135611827" duration="4769000" />
-      <workItem from="1603142801797" duration="20440000" />
+      <workItem from="1603142801797" duration="20832000" />
     </task>
     <servers />
   </component>
