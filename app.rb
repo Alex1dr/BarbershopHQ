@@ -6,7 +6,7 @@ require 'sinatra/activerecord'
 
 set :database, "sqlite3:barbershop.db"
 class Client < ActiveRecord::Base
-  validates :name, presence: true
+  validates :name, presence: true, length: {minimum: 3}
   validates :phone, presence: true
   validates :datestamp, presence: true
   validates :color, presence: true
@@ -43,4 +43,14 @@ post '/visit' do
     @error =@c.errors.full_messages.first
     erb :visit
   end
+end
+
+get '/barber/:id' do
+  @barber = Barber.find(params[:id])
+  erb :barber
+end
+
+get '/bookings' do
+  @client = Client.order('created_DESC')
+  erb :bookings
 end
